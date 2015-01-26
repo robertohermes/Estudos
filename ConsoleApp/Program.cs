@@ -11,5 +11,10 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
         }
+
+        private void teste()
+        {
+            int a = 1;
+        }
     }
 }
