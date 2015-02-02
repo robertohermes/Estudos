@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC", "WebAppMVC\WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{55DF1485-7035-4E47-9FC9-1CFC0FCDE794}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camadas", "Camadas", "{1FD75148-F099-433F-A74C-1F2DD5956A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudos.BusinessEntity", "Camadas\Estudos.BusinessEntity\Estudos.BusinessEntity.csproj", "{8EF41D36-6E29-41A7-B197-784970CDD6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudos.BusinessObject", "Camadas\Estudos.BusinessObject\Estudos.BusinessObject.csproj", "{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +33,20 @@ Global
 		{55DF1485-7035-4E47-9FC9-1CFC0FCDE794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55DF1485-7035-4E47-9FC9-1CFC0FCDE794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55DF1485-7035-4E47-9FC9-1CFC0FCDE794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF41D36-6E29-41A7-B197-784970CDD6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF41D36-6E29-41A7-B197-784970CDD6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF41D36-6E29-41A7-B197-784970CDD6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF41D36-6E29-41A7-B197-784970CDD6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EF41D36-6E29-41A7-B197-784970CDD6C8} = {1FD75148-F099-433F-A74C-1F2DD5956A32}
+		{15FEFBE3-4971-46A7-AC4E-9AC3E2F2764F} = {1FD75148-F099-433F-A74C-1F2DD5956A32}
 	EndGlobalSection
 EndGlobal
